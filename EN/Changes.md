@@ -1,15 +1,15 @@
 # Changes between Bird-OpenWRT v0.2 and v0.3
 
-`Latest update 10/04/17`
+`Latest update 11/04/17`
 
-* Refreshed package and tested using Bird Daemon v1.6.3 and LEDE17.01
+* Refreshed package and tested using Bird Daemon v1.6.3 and LEDE17.01-RC1
    * Apply standardised code style (i.e. ${variable} or $(_command_))
    * Added Filters and Functions folders (/etc/bird\*/{filters|functions}) and create an upgrade path for v0.2 users
    * Fix some bugs from v0.2
    * Re-added Pipe and Direct protocol functions
    * Removed hardcoded references to Bird4/Bird6 and unified (where possible) using variables
-   * Some enhancements in Makefile added (i.e. Preserve configuration on sysupgrade)
-   * Aligned Bird4 and Bird6 packages and functionality (pending: finish and align OSPF Protocol)
+   * Some enhancements in Makefile (i.e. Preserve configuration on sysupgrade)
+   * Aligned Bird4 and Bird6 code (pending: finish and align OSPF Protocol)
 * Changes in UCI's config (/etc/config/bird\*)
   * Removed non-critical configuration used as an example in the previous version
   * Added base configuration in bird6 (Router\_ID _0xCAFEBABE_)
@@ -17,7 +17,7 @@
   * Detached UCI transformation functions into a separate script (bird\*-lib.sh) to simplify init.d script and move forward possible future automated tests
   * Switched from service commands to background bird\* binary calls
      * Service calls were not returning exit code
-     * Service calls were not returning stdin/stdout
+     * Service calls were not returning stdout/stderr
      * Bird binaries allow fine-grained configuration (i.e. specify PID\_file or LOG\_file) and to be ran in background
   * Added an error control system to improve customer's feedback and service handling
   * Created a temporary Bird configuration backup (re-generated each service start)
