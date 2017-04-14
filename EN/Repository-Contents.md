@@ -1,5 +1,58 @@
 # Repository composition
 
+`Last update 14/04/2017`
+
+Folder structrure using: `Command: tree bird-openwrt/ --charset=ASCII --dirsfirst` 
+```
+bird-openwrt/
+|-- packages
+|   `-- bird-openwrt
+|       |-- bird4-openwrt
+|       |   |-- src
+|       |   |   |-- config
+|       |   |   |   `-- bird4
+|       |   |   |-- controller
+|       |   |   |   `-- bird4.lua
+|       |   |   |-- init.d
+|       |   |   |   |-- bird4
+|       |   |   |   `-- bird4-lib.sh
+|       |   |   |-- model
+|       |   |   |   |-- bgp_proto.lua
+|       |   |   |   |-- filters.lua
+|       |   |   |   |-- functions.lua
+|       |   |   |   |-- gen_proto.lua
+|       |   |   |   |-- overview.lua
+|       |   |   |   `-- status.lua
+|       |   |   |-- uci-defaults
+|       |   |   |   |-- 99-relocate-filters
+|       |   |   |   `-- bird-uci-install-init.d
+|       |   |   `-- view
+|       |   |       `-- bird4
+|       |   |           `-- log.htm
+|       |   `-- Makefile
+|       `-- bird6-openwrt
+|           |-- src
+|           |   |-- config
+|           |   |   `-- bird6
+|           |   |-- controller
+|           |   |   `-- bird6.lua
+|           |   |-- init.d
+|           |   |   |-- bird6
+|           |   |   `-- bird6-lib.sh
+|           |   |-- model
+|           |   |   |-- bgp_proto.lua
+|           |   |   |-- gen_proto.lua
+|           |   |   `-- overview.lua
+|           |   `-- uci-defaults
+|           |       |-- 99-relocate-filters
+|           |       `-- bird-uci-install-init.d
+|           `-- Makefile
+|-- AUTHORS
+|-- COPYING
+|-- DOCUMENTATION
+`-- README.md
+```
+
 ## 1. Root Directory
 This directory includes root documents related to the whole repository.
 
@@ -65,7 +118,7 @@ All Model LUA scripts are installed under /cbi/bird{4|6} folder and their functi
 
 **\*/gen_proto.lua** Bird's main Protocols Web UI configuration
 
-**\*/log.lua** Bird's Log file Web UI visualization (refreshed each 5 seconds)
+**\*/log.lua** Bird's Log file Web UI visualization (refreshed each 5 seconds) `Work In Progress`
 
 **\*/overview.lua** Bird's general settings Web UI configuration
 
@@ -77,7 +130,7 @@ All Model LUA scripts are installed under /cbi/bird{4|6} folder and their functi
 
 **\*/bird-uci-install-init.d** Script to be executed on installation time. This script will create a backup of the original Bird{4|6} init.d script and replace it with a link to our init.d version
 
-#### 3.1.6 View Directory
+#### 3.1.6 View Directory `Work In Progress`
 This directory includes any HTML-Lua-JS template to be used by a script in the Model directory or to be called directly by a Controller
 
 **\*/log.htm** Complete page with Auto-refresh configured for each 5 seconds to present the last 30 lines in the Log file for Bird.
