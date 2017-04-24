@@ -33,7 +33,8 @@
       * Present Service Bird\* _start/restart/stop_ buttons (using \*\_quiet)
     * Log Page `(Work In Progress)`
       * Present configured Bird\* Log file. Auto-refresh each 5 seconds
-    * Filters & Functions Page `(Work In Progress)`
-      * Allow selecting a file under /etc/bird\*/{filters OR functions}/ or create a new one using current Time
+    * Filters & Functions Page
+      * Allow selecting a file under /etc/bird\*/{filters OR functions}/ or create a new one using current Timestamp \["New File (path-timestamp)"\]
+        * Caution: if you want to use a newly created file after saving it, you will need to select the "New file" element until you refresh the page.
       * Load selected File in a Text Box and allow editing it
       * Save changes in the file
