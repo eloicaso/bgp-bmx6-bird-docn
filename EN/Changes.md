@@ -36,6 +36,6 @@ Bird{4|6}-openwrt v0.3
       * Show configured Bird{4|6} Log file. Auto-refresh each second
     * Filters & Functions Page
       * Allow selecting a file under /etc/bird\*/{filters OR functions}/ or create a new one using current Timestamp \["New File (path-timestamp)"\]
-        * Caution: if you want to use a newly created file after saving it, you will need to select the "New file" element or refresh the page.
+        * Caution: if you want to use a newly created file after saving it, you will need to select the "New file" element or refresh the page
       * Load selected File in a Text Box and allow editing it
       * Save changes in the file
