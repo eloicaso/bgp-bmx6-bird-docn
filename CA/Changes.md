@@ -1,6 +1,8 @@
 # Canvis de la versió
 
-`Última actualització/04/17`
+`Última actualització 26/04/17`
+
+Bird{4|6}-openwrt v0.3
 
 * Actualització general del paquet. Testejat amb l'última versió de Bird Daemon (v1.6.3) i el Firmware LEDE17.01
    * Aplicat estil de codi estandarditzat per protegir-lo i millorar-ne la visualització: ${variable} o \$(_comanda_))
