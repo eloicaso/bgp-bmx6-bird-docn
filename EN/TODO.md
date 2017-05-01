@@ -8,3 +8,6 @@
 5. Verify correctness of current OSPF configuration. Add any critical property/attribute and align this configuration with bird6-uci and luci-app-bird6
 6. Log File Page should show a textbox to select how often the page is refreshed.
 7. BGP Instances must have all the properties as optional and let BGP Template populate them. Add a strong WARNING to admins that if they do not configure a template, they are forced to set all the settings appropiately.
+8. Add an automated procedure to set the Kernel Tables added through LUCI UI in the /etc/iproute2/rt\_tables file.
+9. Add "primary" option to the Device protocol.
+10. Find out why adding optional settings or new protocol instances does not save the "anchor" point and moves the user to the top of the page (already asking to #lede-dev in IRC).
