@@ -31,7 +31,7 @@ Now follow this steps:
 * Execute the following command: `cat /etc/iproute2/rt_tables`
   Its contents will be similar to these:
 ```
-root@LEDE-eloi:~# cat /etc/iproute2/rt_tables 
+root@LEDE-1701rc2:~# cat /etc/iproute2/rt_tables 
 # reserved values
 128	prelocal
 255	local

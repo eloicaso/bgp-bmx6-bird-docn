@@ -11,3 +11,5 @@
 8. Add an automated procedure to set the Kernel Tables added through LUCI UI in the /etc/iproute2/rt\_tables file.
 9. Add "primary" option to the Device protocol.
 10. Find out why adding optional settings or new protocol instances does not save the "anchor" point and moves the user to the top of the page (already asking to #lede-dev in IRC).
+11. Remove commented options if they are not required (i.e. "*# disabled;*", "*#   next hop self;*" or "*# rr client;*").
+12. Add a warning on the Log configuration. Setting the debug information on may fill system's storage quickly. Warn also that if the partition including the log file is full, the service will not be able to start.
