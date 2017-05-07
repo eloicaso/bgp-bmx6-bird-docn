@@ -12,6 +12,6 @@ Project Repository: [Bird-OpenWRT Package](https://github.com/eloicaso/bird-open
 #### Main Document
 
 - **Package Composition:** [DOCUMENTATION](https://github.com/eloicaso/bgp-bmx6-bird-docn/blob/master/EN/Repository-Contents.md)
-- **UCI-Specific Documentation:**  [DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/DOCUMENTATION.md)
+- **UCI-Specific Documentation:**  [DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/UCI-DOCUMENTATION.md)
 - **LUCI-Specific Documentation:** [DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/LUCI-DOCUMENTATION.md)
 - **Manual Procedures:**  [DOCUMENTATION](https://github.com/eloicaso/bgp-bmx6-bird-docn/blob/master/EN/manual_procedures.md)
