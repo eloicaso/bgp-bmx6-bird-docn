@@ -2,13 +2,16 @@
 ---
 
 Msc. Project main documentation (Eloi Carbó).
+Project Repository: [Bird-OpenWRT Package](https://github.com/eloicaso/bird-openwrt)
 
 > /CA   Catalan Documentation - Documentació en Català
-> /EN   English Documentation - Docuemntació en Anglès
+
+> /EN   English Documentation - Documentació en Anglès
 
 
-#### Repository URL
-[Bird-OpenWRT Package](https://github.com/eloicaso/bird-openwrt)
+#### Main Document
 
-* **UCI-Specific Documentation:**
-[DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/DOCUMENTATION.md)
+- **Package Composition:** [DOCUMENTATION](https://github.com/eloicaso/bgp-bmx6-bird-docn/blob/master/EN/Repository-Contents.md)
+- **UCI-Specific Documentation:**  [DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/DOCUMENTATION.md)
+- **LUCI-Specific Documentation:** [DOCUMENTATION](https://github.com/eloicaso/bird-openwrt/blob/master/LUCI-DOCUMENTATION.md)
+- **Manual Procedures:**  [DOCUMENTATION](https://github.com/eloicaso/bgp-bmx6-bird-docn/blob/master/EN/manual_procedures.md)
